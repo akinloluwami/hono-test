@@ -4,6 +4,7 @@ import { Hono } from 'hono'
 const app = new Hono()
 
 app.get('/', (c) => {
+  console.log("Honoooooo!!!!")
   return c.text('Hello Hono!')
 })
 
